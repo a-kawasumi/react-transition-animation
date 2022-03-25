@@ -4,14 +4,22 @@
   "author": "a-kawasumi",
   "main": "index.js",
   "license": "MIT",
+  "description": "react transition animation library",
+  "repository": "git@github.com:a-kawasumi/react-transition-animation.git",
   "homepage": "https://github.com/a-kawasumi/react-transition-animation#readme",
   "bugs": {
     "url": "https://github.com/a-kawasumi/react-transition-animation/issues"
+  },
+  "scripts": {
+    "build": "tsc"
   },
   "keywords": [
     "react",
     "animation",
     "keyframes",
     "transitions"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
 }
