@@ -11,7 +11,8 @@
     "url": "https://github.com/a-kawasumi/react-transition-animation/issues"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "husky install"
   },
   "keywords": [
     "react",
@@ -20,6 +21,12 @@
     "transitions"
   ],
   "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7",
+    "prettier": "2.6.1",
     "typescript": "^4.6.3"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
