@@ -1,0 +1,17 @@
+{
+  "name": "react-transition-animation",
+  "version": "1.0.1",
+  "author": "a-kawasumi",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/a-kawasumi/react-transition-animation#readme",
+  "bugs": {
+    "url": "https://github.com/a-kawasumi/react-transition-animation/issues"
+  },
+  "keywords": [
+    "react",
+    "animation",
+    "keyframes",
+    "transitions"
+  ]
+}
