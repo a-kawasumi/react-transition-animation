@@ -1,3 +1,0 @@
-{
-  "extends": ["eslint-plugin-standard", "@typescript-eslint/eslint-plugin", "eslint-plugin-react", "prettier"]
-}
